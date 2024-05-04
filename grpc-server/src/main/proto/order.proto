@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.vincenzoracca.grpcserver.proto";
+option java_outer_classname = "OrderProto";
+
+service OrderService {
+  rpc GetOrder(OrderRequest) returns (OrderResponse) {
+  }
+}
+
+message OrderRequest {
+  int32 orderCode = 1;
+}
+
+message OrderResponse {
+  int32 orderCode = 1;
+  repeated Book books = 2;
+}
+
+message Book {
+  int32 code = 1;
+  string name = 2;
+  string company = 3;
+  double price = 4;
+  int32 pagesNumber = 5;
+}
