@@ -37,8 +37,8 @@ Here are the bar charts comparing the performance between the gRPC server and th
 
 This is the screen of the test done for gRPC:
 
-<img src="/images/screen-grpc.png" alt="image" width="40%" height="40%">
+<img src="/images/screen-grpc.png" alt="image" width="80%" height="80%">
 
 This is the screen of the test done for REST:
 
-<img src="images/screen-rest.png" alt="image" width="40%" height="40%">
+<img src="images/screen-rest.png" alt="image" width="80%" height="80%">
