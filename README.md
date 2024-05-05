@@ -16,6 +16,8 @@ There are no databases, there are no logs, the purpose of the project is to comp
 
 ## Comparison gRPC vs REST
 
+The machine on which the tests were run is a MacBook Pro with a 2.6 GHz Intel Core i7 6-core processor and 32GB of memory.
+
 The test was done with Apache Bench by making 2000 requests with a concurrency factor equal to 100:
 ```shell
 ab -n 2000 -c 100  http://localhost:8080/grpc
